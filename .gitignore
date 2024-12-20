@@ -1,0 +1,6 @@
+__pycache__
+*.json
+/build
+/dist
+main.spec
+.idea/
