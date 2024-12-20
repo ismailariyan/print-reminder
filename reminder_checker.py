@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 def check_reminders(data_manager, show_notification):
     data = data_manager.load_data()
     now = datetime.now()
-    print("Checking for reminders...")
+    # print("Checking for reminders...")
 
     for printer, info in data.items():
         last_print_date_str = info.get("last_print_date")

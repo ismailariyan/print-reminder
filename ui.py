@@ -50,7 +50,7 @@ class PrintReminderGUI(QWidget):
 
         self.reminder_timer = QTimer(self)
         self.reminder_timer.timeout.connect(self.check_reminders)
-        self.reminder_timer.start(1000)  # 1 hour in milliseconds
+        self.reminder_timer.start(600000)  # 1 hour in milliseconds
 
         self.monitors = []
         self.start_monitoring()
