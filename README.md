@@ -41,7 +41,7 @@ Print Reminder is a Windows-only desktop application designed to help users keep
 
 ## Demo
 
-![Print Reminder Demo](resources\demo.gif)
+![Print Reminder Demo](https://github.com/ismailariyan/print-reminder/blob/832e68c681b391eb15edcd83ba014c0090dd3d1e/resources/demo.gif)
 
 *Example of the Print Reminder application in action.*
 ## Technologies Used
