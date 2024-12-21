@@ -19,7 +19,7 @@ Print Reminder is a Windows-only desktop application designed to help users keep
 
 ### Printer List and Last Print Date
 
-- **Display Available Printers:** Retrieves and displays a list of available printers using `win32print`.
+- **Display Available Printers:** Retrieves and displays a list of available printers using.
 - **Show Last Print Date:** Displays the last print date for the selected printer.
 
 ### Set Reminder Interval
@@ -30,7 +30,7 @@ Print Reminder is a Windows-only desktop application designed to help users keep
 ### Notifications
 
 - **Periodic Check:** Regularly checks if the printer hasn't been used within the set interval.
-- **Desktop Notifications:** Sends a desktop notification using `plyer` to remind the user to print.
+- **Desktop Notifications:** Sends a desktop notification to remind the user to print.
 
 ## Usage
 
@@ -50,8 +50,23 @@ Print Reminder is a Windows-only desktop application designed to help users keep
 - **PyQt5** for the GUI
 - **win32print** for printer interactions on Windows
 - **plyer** for desktop notifications
-- **SQLite** for storing user settings
 
+## Installation Guide
+
+Follow these steps to set up and run the Print Reminder application on Windows.
+```sh
+   git clone https://github.com/yourusername/print-reminder.git
+   cd print-reminder
+   python -m venv venv
+   .\venv\Scripts\activate
+   pip install -r requirements.txt
+   python main.py
+   
+```
+If you wish th build the exe your self
+```sh
+    python -m PyInstaller main.spec
+```
 ## Contributing
 
 Contributions are welcome to make Print Reminder even better. To contribute:
