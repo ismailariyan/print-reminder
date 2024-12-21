@@ -54,17 +54,16 @@ Print Reminder is a Windows-only desktop application designed to help users keep
 ## Installation Guide
 
 Follow these steps to set up and run the Print Reminder application on Windows.
-```sh
+```bash
    git clone https://github.com/yourusername/print-reminder.git
    cd print-reminder
    python -m venv venv
    .\venv\Scripts\activate
    pip install -r requirements.txt
-   python main.py
-   
+   python main.py   
 ```
 If you wish th build the exe your self
-```sh
+```bash
     python -m PyInstaller main.spec
 ```
 ## Contributing
