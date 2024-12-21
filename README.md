@@ -62,7 +62,7 @@ Follow these steps to set up and run the Print Reminder application on Windows.
    pip install -r requirements.txt
    python main.py   
 ```
-If you wish th build the exe your self
+If you wish th build the .exe yourself
 ```bash
     python -m PyInstaller main.spec
 ```
