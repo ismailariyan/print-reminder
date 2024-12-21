@@ -22,12 +22,12 @@ from reminder_checker import check_reminders
 class PrintReminderGUI(QWidget):
     def __init__(self, icon_path, data_directory):
         super().__init__()
-        self.setWindowTitle("Priminder")
+        self.setWindowTitle("Print Reminder")
         self.setWindowIcon(QIcon(icon_path))
         self.resize(400, 300)
 
         self.tray_icon = QSystemTrayIcon(QIcon(icon_path), self)
-        self.tray_icon.setToolTip("Priminder")
+        self.tray_icon.setToolTip("Print Reminder")
         tray_menu = QMenu()
 
         restore_action = QAction("Open", self)
@@ -211,7 +211,7 @@ class PrintReminderGUI(QWidget):
         event.ignore()
         self.hide()
         self.tray_icon.showMessage(
-            "Priminder",
+            "Print Reminder",
             "Application was minimized to Tray.",
             QSystemTrayIcon.Information,
             2000,
